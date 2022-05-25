@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "hkWtYO99a0HIzto8R9PNdux3qbk7cIcaHtj8qTqDkuh7A67JGAiXpQoAbL9QeNjWqN+TK0YjnCuWLV9REo62wg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\GM-BASE\\dotnet\\resources\\GameMode\\AlyxSDK\\AlyxSDK.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\mysqlconnector\\1.3.0-beta.2\\mysqlconnector.1.3.0-beta.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.113.2\\stub.system.data.sqlite.core.netstandard.1.0.113.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.data.sqlite.core\\1.0.113.7\\system.data.sqlite.core.1.0.113.7.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,1465 @@
+
+==================[5/23/2022 1:35:34 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:35:34 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:35:34 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:35:34 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:35:34 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async ValueTask<ServerSession> MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, int startTickCount, IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 847
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:35:34 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async ValueTask<ServerSession> MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, int startTickCount, IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 847
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async Task MySqlConnector.MySqlConnection.OpenAsync(IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 410
+=========================================================
+
+==================[5/23/2022 1:35:34 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async ValueTask<ServerSession> MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, int startTickCount, IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 847
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async Task MySqlConnector.MySqlConnection.OpenAsync(IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 410
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:35:34 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:35:34 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:35:34 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:35:34 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:35:34 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async ValueTask<ServerSession> MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, int startTickCount, IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 847
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:35:34 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async ValueTask<ServerSession> MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, int startTickCount, IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 847
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async Task MySqlConnector.MySqlConnection.OpenAsync(IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 410
+=========================================================
+
+==================[5/23/2022 1:35:34 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async ValueTask<ServerSession> MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, int startTickCount, IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 847
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async Task MySqlConnector.MySqlConnection.OpenAsync(IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 410
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:35:34 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:35:34 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:35:34 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:35:34 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:35:34 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async ValueTask<ServerSession> MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, int startTickCount, IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 847
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:35:34 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async ValueTask<ServerSession> MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, int startTickCount, IOBehavior? ioBehavio
+==================[5/23/2022 1:47:36 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:47:36 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:47:36 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:47:36 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:47:36 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async ValueTask<ServerSession> MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, int startTickCount, IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 847
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:47:36 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async ValueTask<ServerSession> MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, int startTickCount, IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 847
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async Task MySqlConnector.MySqlConnection.OpenAsync(IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 410
+=========================================================
+
+==================[5/23/2022 1:47:36 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async ValueTask<ServerSession> MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, int startTickCount, IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 847
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async Task MySqlConnector.MySqlConnection.OpenAsync(IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 410
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:47:36 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:47:36 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:47:36 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:47:36 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:47:36 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async ValueTask<ServerSession> MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, int startTickCount, IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 847
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:47:36 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async ValueTask<ServerSession> MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, int startTickCount, IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 847
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async Task MySqlConnector.MySqlConnection.OpenAsync(IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 410
+=========================================================
+
+==================[5/23/2022 1:47:36 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async ValueTask<ServerSession> MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, int startTickCount, IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 847
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async Task MySqlConnector.MySqlConnection.OpenAsync(IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 410
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:47:36 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:47:36 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:47:36 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:47:36 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:47:36 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async ValueTask<ServerSession> MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, int startTickCount, IOBehavior? ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 847
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/23/2022 1:47:36 PM]==================
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   at async Task MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, int startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 465
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at async ValueTask<ServerSession> MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, int startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 140
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async ValueTask<ServerSession> MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, int startTickCount, IOBehavior? ioBehavio
+==================[5/23/2022 2:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 2:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 2:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 2:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 2:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 2:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 2:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 2:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 2:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 2:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 2:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 2:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 2:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 2:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key
+==================[5/23/2022 4:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 4:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 4:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 4:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 4:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 4:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 4:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 4:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 4:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 4:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 4:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 4:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 4:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 4:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key
+==================[5/23/2022 5:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 5:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 5:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 5:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 5:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 5:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 5:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 5:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 5:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 5:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 5:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 5:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 5:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 5:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 5:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 5:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 5:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 5:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 5:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 5:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key '18rs7' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 5:09:41 PM]==================
+System.ArgumentOutOfRangeException: StartIndex cannot be less than zero. (Parameter 'startIndex')
+   at string string.Remove(int startIndex, int count)
+=========================================================
+
+==================[5/23/2022 5:09:41 PM]==================
+System.ArgumentOutOfRangeException: StartIndex cannot be less than zero. (Parameter 'startIndex')
+   at string string.Remove(int startIndex, int count)
+=========================================================
+
+==================[5/23/2022 6:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 6:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 6:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 6:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 6:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 6:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 6:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 6:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 6:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 6:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 6:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 6:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 6:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 6:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 6:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 6:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 6:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 6:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 6:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 6:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key '18rs7' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 7:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 7:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 7:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 7:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 7:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 7:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 7:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 7:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 7:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 7:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 7:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 7:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 7:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 7:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 7:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 7:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 7:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 7:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 7:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 7:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key '18rs7' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 8:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 8:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 8:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 8:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 8:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 8:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 8:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 8:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 8:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 8:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 8:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 8:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 8:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 8:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 8:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 8:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 8:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 8:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 8:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 8:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key '18rs7' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 9:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 9:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 9:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 9:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 9:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 9:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 9:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 9:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 9:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 9:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 9:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 9:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 9:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 9:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 9:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+==
+==================[5/23/2022 9:59:46 PM]==================
+System.ArgumentOutOfRangeException: StartIndex cannot be less than zero. (Parameter 'startIndex')
+   at string string.Remove(int startIndex, int count)
+=========================================================
+
+==================[5/23/2022 9:59:46 PM]==================
+System.ArgumentOutOfRangeException: StartIndex cannot be less than zero. (Parameter 'startIndex')
+   at string string.Remove(int startIndex, int count)
+=========================================================
+
+==================[5/23/2022 10:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 10:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 10:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 10:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 10:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 10:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 10:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 10:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 10:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 10:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 10:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 10:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 10:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 10:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 10:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 10:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 10:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 10:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 10:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 10:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key '18rs7' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 10:01:49 PM]==================
+System.ArgumentOutOfRangeException: StartIndex cannot be less than zero. (Parameter 'startIndex')
+   at string string.Remove(int startIndex, int count)
+=========================================================
+
+==================[5/23/2022 10:01:49 PM]==================
+System.ArgumentOutOfRangeException: StartIndex cannot be less than zero. (Parameter 'startIndex')
+   at string string.Remove(int startIndex, int count)
+=========================================================
+
+==================[5/23/2022 10:01:52 PM]==================
+System.ArgumentOutOfRangeException: StartIndex cannot be less than zero. (Parameter 'startIndex')
+   at string string.Remove(int startIndex, int count)
+=========================================================
+
+==================[5/23/2022 10:01:52 PM]==================
+System.ArgumentOutOfRangeException: StartIndex cannot be less than zero. (Parameter 'startIndex')
+   at string string.Remove(int startIndex, int count)
+=========================================================
+
+==================[5/23/2022 10:06:21 PM]==================
+System.ArgumentOutOfRangeException: StartIndex cannot be less than zero. (Parameter 'startIndex')
+   at string string.Remove(int startIndex, int count)
+=========================================================
+
+==================[5/23/2022 10:06:21 PM]==================
+System.ArgumentOutOfRangeException: StartIndex cannot be less than zero. (Parameter 'startIndex')
+   at string string.Remove(int startIndex, int count)
+=========================================================
+
+==================[5/23/2022 10:0
+==================[5/23/2022 10:48:41 PM]==================
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at void Alyx.Core.BusinessManager.RemoteEvent_buyClothes(Player player, int type, int variation, int texture) in C:/Users/Administrator/Desktop/GM-BASE/dotnet/resources/GameMode/Alyx/Core/Business/Businesses.cs:line 2635
+=========================================================
+
+==================[5/23/2022 10:48:42 PM]==================
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at void Alyx.Core.BusinessManager.RemoteEvent_buyClothes(Player player, int type, int variation, int texture) in C:/Users/Administrator/Desktop/GM-BASE/dotnet/resources/GameMode/Alyx/Core/Business/Businesses.cs:line 2635
+=========================================================
+
+==================[5/23/2022 10:48:44 PM]==================
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at void Alyx.Core.BusinessManager.RemoteEvent_buyClothes(Player player, int type, int variation, int texture) in C:/Users/Administrator/Desktop/GM-BASE/dotnet/resources/GameMode/Alyx/Core/Business/Businesses.cs:line 2635
+=========================================================
+
+==================[5/23/2022 10:48:46 PM]==================
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at void Alyx.Core.BusinessManager.RemoteEvent_buyClothes(Player player, int type, int variation, int texture) in C:/Users/Administrator/Desktop/GM-BASE/dotnet/resources/GameMode/Alyx/Core/Business/Businesses.cs:line 2635
+=========================================================
+
+==================[5/23/2022 10:48:46 PM]==================
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at void Alyx.Core.BusinessManager.RemoteEvent_buyClothes(Player player, int type, int variation, int texture) in C:/Users/Administrator/Desktop/GM-BASE/dotnet/resources/GameMode/Alyx/Core/Business/Businesses.cs:line 2635
+=========================================================
+
+==================[5/23/2022 10:49:09 PM]==================
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at void Alyx.Core.BusinessManager.RemoteEvent_buyClothes(Player player, int type, int variation, int texture) in C:/Users/Administrator/Desktop/GM-BASE/dotnet/resources/GameMode/Alyx/Core/Business/Businesses.cs:line 2635
+=========================================================
+
+==================[5/23/2022 11:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 11:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 11:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 11:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 11:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 11:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 11:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 11:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 11:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 11:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 11:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 11:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 11:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 11:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 11:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 11:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 11:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 11:00:00 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 11:00:01 PM]==================
+System.Collections.Generic.KeyNotFoundException: The given key '18rs7' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/23/2022 11:16:27 PM]==================
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at void Alyx.Houses.HouseManager.GoHouseMenuInform(Player player, int act) in C:/Users/Administrator/Desktop/GM-BASE/dotnet/resources/GameMode/Alyx/Houses/HouseManager.cs:line 829
+=========================================================
+
+==================[5/23/2022 11:16:27 PM]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at void Alyx.Houses.HouseManager.GoHouseMenuInform(Player player, int act) in C:/Users/Administrator/Desktop/GM-BASE/dotnet/resources/GameMode/Alyx/Houses/HouseManager.cs:line 829
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[5/23/2022 11:17:22 PM]==================
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at void Alyx.Houses.HouseManager.GoHouseMenuInform(Player player, int act) in C:/Users/Administrator/Desktop/GM-BASE/dotnet/resources/GameMode/Alyx/Houses/HouseManager.cs:line 829
+=========================================================
+
+==================[5/23/2022 11:17:22 PM]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at void Alyx.Houses.HouseManager.GoHouseMenuInform(Player player, int act) in C:/Users/Administrator/Desktop/GM-BASE/dotnet/resources/GameMode/Alyx/Houses/HouseManager.cs:line 829
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture)
+=========================================================
+
+==================[5/23/2022 11:29:17 PM]==================
+System.ArgumentOutOfRangeException: StartIndex cannot be less than zero. (Parameter 'startIndex')
+   at string string.Remove(int startIndex, int count)
+=========================================================
+
+==================[5/23/2022 11:29:17 PM]==================
+System.ArgumentOutOfRangeException: StartIndex cannot be less than zero. (Parameter 'startIndex')
+   at string string.Remove(int startIndex, int count)
+=========================================================
+
+==================[5/23/2022 11:29:20 PM]==================
+System.ArgumentOutOfRangeException: StartIndex cannot be less than zero. (Parameter 'startIndex')
+   at string string.Remove(int startIndex, int count)
+=========================================================
+
+==================[5/23/2022 11:29:20 PM]==================
+System.ArgumentOutOfRangeException: StartIndex cannot be less than zero. (Parameter 'startIndex')
+   at string string.Remove(int startIndex, int count)
+=========================================================
+
+==================[5/23/2022 11:58:06 PM]==================
+System.ArgumentOutOfRangeException: StartIndex cannot be less than zero. (Parameter 'startIndex')
+   at string string.Remove(int startIndex, int count)
+=========================================================
+
+==================[5/23/2022 11:58:06 PM]==================
+System.ArgumentOutOfRangeException: StartIndex cannot be less than zero. (Parameter 'startIndex')
+   at string string.Remove(int startIndex, int count)
+=========================================================
+
+==================[5/23/2022 11:58:55 PM]==================
+System.ArgumentOutOfRangeException: StartIndex cannot be less than zero. (Parameter 'startIndex')
+   at string string.Remove(int startIndex, int count)
+=========================================================
+
+==================[5/23/2022 11:58:55 PM]==================
+System.ArgumentOutOfRangeException: StartIndex cannot be less than zero. (Parameter 'startIndex')
+   at string string.Remove(int startIndex, int count)
+=========================================================
+
+==================[5/24/2022 12:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 12:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 12:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 12:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 12:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 12:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 12:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 12:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 12:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 12:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 12:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 12:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 12:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 12:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 12:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 12:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 12:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 12:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 12:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key '18rs7' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 12:00:58 AM]==================
+System.OperationCanceledException: The operation was canceled.
+   at void System.Threading.CancellationToken.ThrowOperationCanceledException()
+=========================================================
+
+==================[5/24/2022 12:00:58 AM]==================
+System.OperationCanceledException: The operation was canceled.
+   at void System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at async Task<bool> System.Threading.SemaphoreSlim.WaitUntilCountOrTimeoutAsync(TaskNode asyncWaiter, int millisecondsTimeout, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/24/2022 12:00:58 AM]==================
+System.OperationCanceledException: The operation was canceled.
+   at void System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at async Task<bool> System.Threading.SemaphoreSlim.WaitUntilCountOrTimeoutAsync(TaskNode asyncWaiter, int millisecondsTimeout, CancellationToken cancellationToken)
+   at async Task MySqlConnector.Core.BackgroundConnectionResetHelper.ReturnSessionsAsync() in /_/src/MySqlConnector/Core/BackgroundConnectionResetHelper.cs:line 86
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[5/24/2022 12:00:58 AM]==================
+System.OperationCanceledException: The operation was canceled.
+   at void System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at async Task<bool> System.Threading.SemaphoreSlim.WaitUntilCountOrTimeoutAsync(TaskNode asyncWaiter, int millisecondsTimeout, CancellationToken cancellationToken)
+   at async Task MySqlConnector.Core.BackgroundConnectionResetHelper.ReturnSessionsA
+==================[5/24/2022 10:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 10:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 10:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 10:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 10:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 10:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 10:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 10:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 10:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 10:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 10:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 10:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 10:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundException<T>(T key)
+=========================================================
+
+==================[5/24/2022 10:00:00 AM]==================
+System.Collections.Generic.KeyNotFoundException: The given key 'Бумбокс' was not present in the dictionary.
+   at void ThrowHelper.ThrowKeyNotFoundExce

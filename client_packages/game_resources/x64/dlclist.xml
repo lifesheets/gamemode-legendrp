@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SMandatoryPacksData>
+	<Paths>
+		<!-- Debajo de esta linea solo se incluyen mapas exteriores e interiores DLC-->
+		<Item>platform:/dlcPacks/map_exteriors_main/</Item>
+		<Item>platform:/dlcPacks/map_props/</Item>
+		<Item>platform:/dlcPacks/map_props2/</Item>
+		<Item>platform:/dlcPacks/map_props3/</Item>	
+		<Item>platform:/dlcPacks/fib/</Item>
+		<Item>platform:/dlcPacks/pillbox_hospital_interior/</Item>
+		<Item>platform:/dlcPacks/pillbox_hospital_exterior/</Item>
+		<Item>platform:/dlcPacks/map_AutoSchool/</Item>
+		<Item>platform:/dlcPacks/CityHall/</Item>
+		<Item>platform:/dlcPacks/map_lspd/</Item>
+		<Item>platform:/dlcPacks/sheriffpaleto/</Item>
+		<Item>platform:/dlcPacks/drugsjob/</Item>
+		<Item>platform:/dlcPacks/map_families/</Item>
+		<Item>platform:/dlcPacks/map_families_fix/</Item>
+		<Item>platform:/dlcPacks/map_bahama/</Item>
+		<Item>platform:/dlcPacks/map_marabunta/</Item>
+		<Item>platform:/dlcPacks/map_vagos/</Item>
+		<Item>platform:/dlcPacks/map_ballas/</Item>
+		<Item>platform:/dlcPacks/map_bloods/</Item>
+			
+<!-- Debajo de esta linea solo se vehiculos -->
+		<Item>dlcpacks:/veh_huracan/</Item>  		
+		<!-- MANSION MALIBU <Item>dlcpacks:/malibu_mansion/</Item>-->
+	</Paths>	
+</SMandatoryPacksData>
